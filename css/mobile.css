@@ -1,0 +1,20 @@
+body {
+    font-size: 16px; 
+}
+
+.header-content {
+    padding: 10px; 
+}
+
+.menu li {
+    display: block; 
+    margin: 5px 0; 
+}
+
+section {
+    padding: 15px; 
+}
+
+.about-content img {
+    max-width: 80px; 
+}

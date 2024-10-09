@@ -1,0 +1,174 @@
+html, body {
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+main{
+    flex-grow: 1;
+}
+
+body {
+    display: flex; 
+    flex-direction: column; 
+    min-height: 100vh;
+  }
+
+header {
+  background-color: #056868;
+  color: white;
+  padding: 1rem 0;
+  text-align: center;
+  border-bottom: 5px solid #122b37;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+header h3 {
+  margin: 0.5rem 0;
+  font-size: 1.2rem;
+}
+
+header p {
+  margin: 0.5rem 0;
+}
+
+nav ul.menu {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+nav ul.menu li {
+  margin: 0 15px;
+}
+
+nav ul.menu li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  text-transform: uppercase;
+  transition: color 0.3s ease;
+}
+
+nav ul.menu li a:hover {
+  color: #122b37;
+}
+
+section {
+  padding: 2rem;
+  background-color: #fff;
+  margin: 1rem auto;
+  max-width: 900px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  flex-grow: 1;
+}
+
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #056868;
+  border-bottom: 2px solid #122b37;
+  padding-bottom: 0.5rem;
+}
+
+.about-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.about-content img {
+  max-width: 150px;
+  border-radius: 50%;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.languages ul,
+.skills table {
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.languages ul {
+  list-style-type: square;
+  padding-left: 1rem;
+}
+
+.skills table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.skills th,
+.skills td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.skills th {
+  background-color: #056868;
+  color: white;
+}
+
+.skills td {
+  background-color: #f9f9f9;
+}
+
+.skills tr:hover {
+  background-color: #f1f1f1;
+}
+
+.job,
+.course {
+  margin-bottom: 1.5rem;
+}
+
+.job h3,
+.course h3 {
+  color: #056868;
+  margin: 0;
+}
+
+.job span,
+.course span {
+  color: #666;
+  font-style: italic;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+footer {
+    background-color: #056868;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    width: 100%;
+  }
+
+/* Responsive */
+@media (max-width: 768px) {
+  .about-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav ul.menu {
+    flex-direction: column;
+  }
+
+  nav ul.menu li {
+    margin-bottom: 10px;
+  }
+}

@@ -1,40 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
+<html lang="ca">
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
+    <title>Contacte - Naim Faris Benages</title>
+    <link rel="apple-touch-icon" href="../apple-touch-icon.png" />
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/screen.css" />
+    <link rel="stylesheet" media="screen and (min-width: 1080px)" href="../css/tablet.css" />
+    <link rel="stylesheet" media="screen and (max-width: 412px)" href="../css/mobile.css" />
+    <link rel="stylesheet" media="print" href="../css/print.css" />
+    <link rel="stylesheet" href="../css/normalised.css" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    
+    <script src="/script.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" defer></script>
+</head>
+<body>
     <header>
-      <h1>Contacte</h1>
-      <nav>
-        <ul class="menu">
-          <li><a href="index.html">Inici</a></li>
-          <li><a href="experiencia.html">Experiència</a></li>
-          <li><a href="estudis.html">Estudis</a></li>
-          <li><a href="contact.html">Contacte</a></li>
-        </ul>
-      </nav>
+        <h1>Contacte</h1>
+        <nav>
+            <ul class="menu">
+                <li><a href="../index.html">Inici</a></li>
+                <li><a href="experiencia.html">Experiència</a></li>
+                <li><a href="estudis.html">Estudis</a></li>
+                <li><a href="contact.html">Contacte</a></li>
+            </ul>
+        </nav>
     </header>
-    <section class="contact-form">
-      <h2>Posa't en contacte amb mi</h2>
-      <form action="#" method="post">
-        <label for="name">Nom:</label>
-        <input type="text" id="name" name="name" required />
 
-        <label for="email">Correu electrònic:</label>
-        <input type="email" id="email" name="email" required />
-
-        <label for="message">Missatge:</label>
-        <textarea id="message" name="message" required></textarea>
-
-        <button type="submit">Enviar</button>
-      </form>
-    </section>
-
+    <main>
+        <section class="contact">
+            <h2>Contacta'm</h2>
+            <form>
+                <label for="name">Nom:</label>
+                <input type="text" id="name" name="name" required />
+                
+                <label for="email">Correu electrònic:</label>
+                <input type="email" id="email" name="email" required />
+                
+                <label for="message">Missatge:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    
     <footer>
-      <p>&copy; 2024 Naim Faris Benages. Tots els drets reservats.</p>
+        <p>&copy; 2024 Naim Faris Benages. Tots els drets reservats.</p>
     </footer>
-  </body>
+</body>
 </html>

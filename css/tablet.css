@@ -1,0 +1,11 @@
+body {
+    font-size: 18px; 
+}
+
+.menu li {
+    margin: 0 10px;
+}
+
+section {
+    padding: 30px;
+}
